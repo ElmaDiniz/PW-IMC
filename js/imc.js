@@ -15,10 +15,10 @@ function calcularIMC ()
 	}
 	else{
 
-	//escreve o valor obtido no calculo do IMC
+	
 	document.getElementById("resultado").innerHTML = imc;
 	
-	//Para mostrar imágenes dependiendo do resultado do IMC.
+	
 	var parent = document.getElementById("representacao");
 	var child = document.getElementById("imagemIMC");
 	var imagem = document.createElement("img");
@@ -56,7 +56,7 @@ function calcularIMC ()
 	}
 
 
-	//Para mostrar as observações.
+	
 	notificacao.requestPermission();
 
 	var nomes = document.getElementById("nomes").value;
@@ -99,4 +99,4 @@ function calcularIMC ()
 		}
 	}
 
-}//Fim da função
+}
